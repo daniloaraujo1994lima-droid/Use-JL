@@ -540,5 +540,6 @@ load();
 ORDEM.forEach(s=>{abertos[s]=true});
 renderHome();
 </script>
+<script>if("serviceWorker"in navigator){navigator.serviceWorker.register("/Use-JL/sw.js").then(()=>console.log("SW ok")).catch(e=>console.log("SW erro",e))}</script>
 </body>
 </html>
